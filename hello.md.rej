@@ -1,0 +1,13 @@
+diff a/hello.md b/hello.md	(rejected hunks)
+@@ -28,4 +28,8 @@
+ 
+ - 헤드 브랜치에 추가적인 커밋이 생기는 경우
+ - 진짜 병합이 필요해 진다.
+-- 충돌이 안 나면 좋은데, 충돌이 나도 겁내지 말자.
+\ No newline at end of file
++- 충돌이 안 나면 좋은데, 충돌이 나도 겁내지 말자.
++
++## 사용자가 본인 뿐일 때, master branch 가 서로 갈리는 경우
++-- 서로 다른 컴퓨터에서 같은 계정으로 작업을 시도했을 경우
++-- Pull 에 작업내용이 추가되며 master branch 들이 서로 갈라지게 된다.(Orizin/master, master)
+\ No newline at end of file
